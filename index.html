@@ -4,58 +4,10 @@ T<!DOCTYPE html>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="clone.css">
         <title>
             NETFLIX
         </title>
-        <style>
-.body{
-    background-image: url(backround.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.head{
-    display: flex;
-    justify-content: space-between;
-}
-.netflix{
-    color: red;
-    font-size: 60px;
-    font-weight: 400;
-    font-family: 'Bebas Neue', sans-serif;
-}
-#language{
-    background-color: black;
-    border-radius: 10%;
-    color: aliceblue;
-    width: 95px;
-    height: 30px;
-}
-.login{
-    color: rgb(241, 239, 239);
-    background-color: red;
-    height: 28px;
-    width:90px;
-    text-decoration: none;
-    text-align:center;
-    border-radius: 25%;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-}
-.headcontainer{
-    padding-left: 60px;
-    padding-right: 0;
-    display: flex;
-    justify-content: space-between;
-}
-        </style>
     </head>
     <body class="body">
 
@@ -84,20 +36,29 @@ T<!DOCTYPE html>
 </header>
 
 <main>
-    <div>
-        Unlimited movies, shows, and more
+    <section class="midtext">
+    <div class="headtext">
+        Unlimited movies,<br> shows, and more
     </div>
-    <div>
+    <div class="price">
         Starts at ₹149. Cancel at any time.
     </div>
+    </section>
+    <section  class="watch">
     <div>
         Ready to watch? Enter your email to create or restart your membership.
     </div>
-    <div>
-        <form>
-        
+    </section>
+
+<section class="mail">
+
+        <form  action="">
+        <input type="text" id="email" class="info">
+        <button id="getstarted" type="submit">GET STARTED</button>
         </form>
-    </div>
+        
+</section>
+
 </main>
     </body>
 </html>

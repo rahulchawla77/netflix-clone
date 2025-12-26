@@ -1,0 +1,90 @@
+.body{
+    background-image: url(backround.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+.netflix{
+    color: red;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#language{
+    background-color: black;
+    border-radius: 10%;
+    color: aliceblue;
+    width: 95px;
+    height: 30px;
+}
+.login{
+    color: rgb(241, 239, 239);
+    background-color: red;
+    height: 28px;
+    width:90px;
+    text-decoration: none;
+    text-align:center;
+    border-radius: 25%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.headcontainer{
+    padding-left: 60px;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.midtext{
+    color: white;
+    text-align: center;
+    gap: 10px;
+    height: 35%;
+    justify-content: space-between;
+}
+.headtext{
+   font-size: 300%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 800;
+}
+.price{
+    font-size: 19px;
+}
+.mail{
+ justify-content: space-between;
+ color: white;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.watch{
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-size: large;
+}
+#email{
+   height: 40px;
+   width: 450px;
+   opacity: 10%;
+   border: 10px;
+   border-color: white;
+}
+#getstarted{
+background: red;
+width: 150px;
+height: 50px;
+color: white;
+font-weight: 700;
+cursor: pointer;
+}
