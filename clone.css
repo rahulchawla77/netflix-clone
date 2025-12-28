@@ -2,6 +2,8 @@
     background-image: url(backround.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 .head{
     display: flex;
@@ -64,6 +66,7 @@
 .mail{
  justify-content: space-between;
  color: white;
+ height: 200px;
  text-align: center;
  font-family: Arial, Helvetica, sans-serif;
 }
@@ -87,4 +90,44 @@ height: 50px;
 color: white;
 font-weight: 700;
 cursor: pointer;
+font-size: 100%;
 }
+#getstarted:hover{
+    transform: scale(1.1);transition:0.3s
+}
+  .recommendations{
+            background-image: url("backround2.png");
+            background-size: 150%;
+            background-repeat: no-repeat;
+            padding-left: 10%;
+        }
+        .trending-text{
+            color: white;
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+        .trending{
+            display: flex;
+            height: 70%;
+            gap: 80px;
+            font-size: 100px;
+        }
+        .trending img{
+            height: 300px;
+            width: 220px;
+            position:relative;
+            margin: 0;
+            padding: 0;
+        }
+        .trending img:hover{
+            transition: 0.3s;transform: scale(1.1);
+        }
+         .txt{
+            position: absolute;
+            bottom: -400px;
+            line-height: 1;
+            color: black;
+            font-weight: 700;
+           -webkit-text-stroke: 1px white;
+            z-index: 1;
+         }
