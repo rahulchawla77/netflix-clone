@@ -116,18 +116,98 @@ font-size: 100%;
             height: 300px;
             width: 220px;
             position:relative;
-            margin: 0;
-            padding: 0;
         }
         .trending img:hover{
             transition: 0.3s;transform: scale(1.1);
         }
          .txt{
             position: absolute;
-            bottom: -400px;
+            bottom: -390px;
             line-height: 1;
             color: black;
             font-weight: 700;
            -webkit-text-stroke: 1px white;
             z-index: 1;
          }
+           .more-reason{
+         color: aliceblue;
+         font-size:30px;
+            }
+        .reasons{
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .reasons img{
+         width: 250px;
+         border-radius: 5%;
+         align-items: center;
+        }
+        .questions{
+                background: black;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 10%;
+                padding-top: 5% ;
+            }
+          .frequent-questions{
+            color: white;
+            font-weight: 500;
+            font-size: 30px;
+            padding-bottom: 10px;
+          }
+          .question{
+            color: white;
+            text-align: left;
+            font-size: 30px;
+          }
+          .Question{
+            display: grid;
+            grid-template-rows:80px  ;
+            row-gap: 20px;
+            align-items: center;
+            font-weight: 20;
+          }
+          .Question button{
+            background: rgb(28, 26, 26);
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+          }
+          .symbol{
+            font-size: 50px;
+            margin: 5px;
+            padding: 5px;
+          }
+           .number{
+                text-align: left;
+                padding-bottom: 30px;
+            }
+            .number a{
+                 color: white;
+            }
+            .footer{
+                background-image: url(Black_colour.jpg.webp);
+                background-size: 200%;
+                padding-top: 10%;
+                padding-left: 10%;
+                
+            }
+            .contact{
+                padding-left: 10%;
+                display: grid;
+                grid-template-columns: 250px 250px 250px 250px;
+                row-gap: 20px;
+                background-image: url(Black_colour.jpg.webp);
+            }
+            .contact a{
+                 color: white;
+            }
+            .language{
+                display: flex;
+                padding: 10px;
+            }
+            .disclaimer{
+                background-color: black;
+                color: white;
+                padding-bottom: 5%;
+            }
